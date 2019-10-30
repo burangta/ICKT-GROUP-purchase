@@ -1,0 +1,25 @@
+请求相关的数据
+    请求地址    /data/home
+    请求方式    GET
+    请求格式    application/json
+    编码类型 ......
+请求数据
+    query
+        color       代表颜色
+        num         代表数量
+    data
+        type        代表分类
+响应数据
+    {
+        "ad": Array     代表广告数据
+            {
+                "title": string         代表商品标题
+                "description": string   代表商品描述
+                "_id": string           代表商品id
+                "url": string           代表商品图片地址
+            }
+        "list": Array   代表商品列表
+            {
+                .......
+            }
+    }

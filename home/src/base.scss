@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+$greenColor:#06c1ae;
+
+// 定义三角形箭头混合
+// $w:宽度  $bg:背景色 $d:代表哪个边是不透明的
+@mixin  trangleArrow($w,$bg,$d) {
+    width: 0;
+    font-size: 0;
+    border: transparent  $w solid;
+    border-#{$d}:   $w  $bg solid;   
+}

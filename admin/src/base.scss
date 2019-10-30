@@ -1,0 +1,25 @@
+$purpleColor: purple;
+.child-page {
+    h1{
+        width: 80%;
+        margin: auto;
+        padding: 20px;
+        margin-bottom: 20px;
+        border-bottom: solid 2px #ccc;
+        
+    }
+    .el-input,.el-textarea__inner,{
+        width: 50%;
+    }
+    .el-select {
+        width: 50%;
+        .el-input {
+            width: 100%;
+        }
+    }
+    
+  }
+
+a {
+    text-decoration: none;
+}
